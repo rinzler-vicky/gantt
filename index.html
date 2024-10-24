@@ -102,13 +102,13 @@
             // ];
 
             let gantt_chart = new Gantt('.gantt-target', tasks, {
-                on_click (task) {
+                on_click(task) {
                     console.log('Click', task);
                 },
                 // on_hover (task, x, y) {
                 //   console.log("Hover", x, y);
                 // },
-                view_mode: 'Hour',
+                view_mode: 'Day',
                 view_mode_padding: { DAY: '1d', HOUR: '1h' },
                 // popup: false,
                 // scroll_to: 'today',
