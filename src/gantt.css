@@ -197,15 +197,15 @@
     }
 
     & .bar-wrapper .bar {
-        fill: var(--bar-color);
+        /* fill: var(--bar-color); */
         stroke: var(--bar-stroke);
         stroke-width: 0;
         transition: stroke-width 0.3s ease;
     }
 
-    & .bar-progress {
+    /* & .bar-progress {
         fill: var(--progress);
-    }
+    } */
 
     & .bar-expected-progress {
         fill: var(--light-blue);
@@ -236,13 +236,13 @@
     }
 
     & .bar-wrapper.important {
-        & .bar {
-            fill: var(--bar-color-important);
-        }
+        /* & .bar { */
+            /* fill: var(--bar-color-important); */
+        /* } */
 
-        & .bar-progress {
+        /* & .bar-progress {
             fill: var(--dark-blue);
-        }
+        } */
 
         & .bar-label {
             fill: var(--text-light);

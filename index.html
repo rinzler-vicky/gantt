@@ -44,11 +44,14 @@
                 },
                 {
                     start: '2024-03-26 12:25:00',
-                    end: '2024-03-26 13:40:00',
+                    end: '2024-03-26 14:40:00',
                     name: 'Write new content',
                     id: 'Task 1',
                     progress: 70,
-                    important: true,
+                    // important: true,
+					color: '#ff0000',
+					progressColor: '#aa0000',
+					importantColor: '#ff00ff',
                 },
                 {
                     start: '2024-04-04',
@@ -108,7 +111,7 @@
                 // on_hover (task, x, y) {
                 //   console.log("Hover", x, y);
                 // },
-                view_mode: 'Day',
+                view_mode: 'Hour',
                 view_mode_padding: { DAY: '1d', HOUR: '1h' },
                 // popup: false,
                 // scroll_to: 'today',
